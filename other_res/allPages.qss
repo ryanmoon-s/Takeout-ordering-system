@@ -1,0 +1,182 @@
+/*******普通确认********/
+QPushButton#BtnSure, #btnComm {
+	border: 1px solid gray;/*设置边框的粗细，以及颜色*/
+	border-radius: 6px;/*设置圆角的大小*/
+	color:rgb(80,80,80);
+	background-color: rgb(200, 234, 234);
+}
+
+QPushButton#BtnSure:pressed, #btnComm :pressed{
+	border-style:inset;
+	color:white;
+	background-color:rgb(89,117,120);
+	position:absolute;
+	top:5px;
+	left:5px
+}
+
+/*******登录界面确认********/
+QPushButton#BtnSureLogin {
+	border: 1px solid gray;/*设置边框的粗细，以及颜色*/
+	border-radius: 6px;/*设置圆角的大小*/
+	color:rgb(80,80,80);
+	background-color: rgb(200, 234, 234);
+}
+
+QPushButton#BtnSureLogin:pressed{
+	border-style:inset;
+	color:white;
+	background-color:rgb(89,117,120);
+	position:absolute;
+	top:5px;
+	left:5px
+}
+
+/*******下单*******/
+QPushButton#btnMakeOrder {
+	border: 1px solid gray;/*设置边框的粗细，以及颜色*/
+	border-radius: 6px;/*设置圆角的大小*/
+	color:rgb(60,60,60);
+	background-color: rgb(133, 191, 228);
+}
+
+QPushButton#btnMakeOrder:pressed {
+	border-style:inset;
+	color:white;
+	background-color:rgb(89,117,120);
+	position:absolute;
+	top:5px;
+	left:5px
+}
+
+/*******选择规格********/
+QPushButton#btnSelectSize {
+	border: 1px solid gray;/*设置边框的粗细，以及颜色*/
+	border-radius: 2px;/*设置圆角的大小*/
+	color:rgb(80,80,80);
+	background-color: rgb(200, 234, 234);
+}
+
+QPushButton#btnSelectSize:pressed{
+	border-style:inset;
+	color:white;
+	background-color:rgb(89,117,120);
+	position:absolute;
+	top:5px;
+	left:5px
+}
+
+/*******规格选择辣度、规格********/
+QPushButton#btnSel1,#btnSel2,#btnSel3,#btnSel4,#btnSel5,#btnSel6 {
+	border: 1px solid gray;/*设置边框的粗细，以及颜色*/
+	border-radius: 3px;/*设置圆角的大小*/
+	color:rgb(80,80,80);
+	background-color: rgb(255, 255, 255);
+}
+
+QPushButton#btnSel1:checked,#btnSel2:checked,#btnSel3:checked,#btnSel4:checked,#btnSel5:checked,#btnSel6:checked {
+	border-style:inset;
+	color:white;
+	background-color:rgb(249,169,120);
+	position:absolute;
+	top:5px;
+	left:5px
+}
+
+/*******规格选择加入购物车********/
+QPushButton#btnAddCar, #btnPay {
+	border: 1px solid gray;/*设置边框的粗细，以及颜色*/
+	font-weight: bold;
+	border-radius: 3px;/*设置圆角的大小*/
+	color:rgb(20,20,20);
+	background-color: rgb(197, 225, 10);
+}
+
+QPushButton#btnAddCar:pressed, #btnPay:pressed {
+	border-style:inset;
+	color:white;
+	background-color:rgb(89,117,120);
+	position:absolute;
+	top:5px;
+	left:5px
+}
+
+/*******规格选择取消********/
+QPushButton#btnCancel {
+	border: 1px solid gray;/*设置边框的粗细，以及颜色*/
+	border-radius: 3px;/*设置圆角的大小*/
+	color:rgb(20,20,20);
+	background-color: rgba(171, 187, 198, 230);
+}
+
+QPushButton#btnCancel:pressed {
+	border-style:inset;
+	color:white;
+	background-color:rgb(89,117,120);
+	position:absolute;
+	top:5px;
+	left:5px
+}
+
+/*******点菜分类push*******/
+QPushButton#push1,#push2,#push3 {
+	border: 1px solid gray;/*设置边框的粗细，以及颜色*/
+	color:rgb(80,80,80);
+	background-color: rgb(219, 236, 247);
+}
+
+QPushButton#push1:pressed,#push2:pressed,#push3:pressed {
+	border-style:inset;
+	color:white;
+	background-color:rgb(89,117,120);
+	position:absolute;
+	top:5px;
+	left:5px
+}
+
+
+/*******分组*******/
+QGroupBox {
+	border: 0px;
+}
+
+
+/*******行编辑框*******/
+QLineEdit{
+	border: 1px solid gray;/*设置边框的粗细，以及颜色*/
+	border-radius: 3px;/*设置圆角的大小*/
+	background-color: rgba(245, 245, 245, 220);
+}
+
+/*******ListWidget*******/
+QListWidget{
+	border: 0px;
+}
+
+QListWidget::item {
+	border-top: 1px solid rgb(133,192,228);
+	border-left: 1px solid rgb(133,192,228);
+	border-right: 1px solid rgb(133,192,228);
+}
+
+/********ComboBox*******/
+QComboBox {
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 1px 2px 1px 2px;  
+    min-width: 9em;   
+	background-color: rgb(207,216,231);
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 20px;
+ 
+    border-left-width: 1px;
+    border-left-color: darkgray;
+    border-left-style: solid; 
+    border-top-right-radius: 3px; 
+    border-bottom-right-radius: 3px;
+}
+

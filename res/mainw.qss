@@ -1,0 +1,22 @@
+QPushButton {
+    border: 1px solid gray;
+    border-radius: 6px;
+    color:rgb(60,60,60);
+    background-color: rgb(133, 191, 228);
+}
+
+
+QPushButton:pressed {
+	border-style:inset;
+	
+	background-color:rgb(89,117,120);
+	position:absolute;
+	top:5px;
+	left:5px
+}
+
+
+QGroupBox {
+    border: 0px;
+	
+}

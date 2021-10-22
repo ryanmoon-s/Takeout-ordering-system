@@ -1,0 +1,8 @@
+将这两个文件：
+
+allPages.qss（QSS美化文件）
+uglyTakeoutFood.db（SQLite数据库）
+
+放到工作区的 debug 目录下使用：
+
+..\build-uglyTakeoutFood-Desktop_Qt_5_9_9_MinGW_32bit-Debug\debug

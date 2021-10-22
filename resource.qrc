@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>res/cover.jpg</file>
+        <file>res/register.jpg</file>
+        <file>res/icon.png</file>
+        <file>res/findPassbk.jpg</file>
+        <file>res/mainBak.jpg</file>
+        <file>res/shopCar.png</file>
+        <file>res/orderPix.png</file>
+        <file>res/客服.png</file>
+        <file>res/收货地址.png</file>
+        <file>res/退出 .png</file>
+        <file>res/用户中心.png</file>
+        <file>res/地址.png</file>
+        <file>res/电话.png</file>
+        <file>res/公告.png</file>
+        <file>res/配送.png</file>
+        <file>res/时间.png</file>
+        <file>res/删除(黑色).png</file>
+        <file>res/删除(蓝色).png</file>
+        <file>res/热门菜.png</file>
+        <file>res/当前商家.png</file>
+        <file>res/商家们.png</file>
+        <file>res/规格.png</file>
+        <file>res/支付.png</file>
+        <file>res/主窗口.png</file>
+        <file>res/评价.png</file>
+        <file>res/登录.png</file>
+        <file>res/找回密码.png</file>
+        <file>res/注册账号.png</file>
+    </qresource>
+</RCC>
